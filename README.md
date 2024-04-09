@@ -25,7 +25,7 @@
 - main.py: 主程序
 - main.sqlite: 用于存储题目和答案的sqlite数据库
 - README.md: 说明文档
-- OmoFun.xlsx: 题库,包含题目和答案,有一些题目还没有答案
+- OmoFun.xlsx: OmoFun 题库 ,包含题目和答案,截止于2024/4/8,有一些题目还没有答案
 
 
 ## Screenshots
