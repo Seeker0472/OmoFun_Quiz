@@ -3,6 +3,8 @@
 
 ## Introduction
 
+[OmoFun发布页](https://omoget.com/)
+
 这是我随便写的一个项目,主要是想玩一玩appium,代码写的很烂
 
 ## Usage
