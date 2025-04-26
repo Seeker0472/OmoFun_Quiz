@@ -1,5 +1,6 @@
 # OmoFun_Quiz
-使用appium自动完成OmoFun的入站问答
+
+使用appium自动完成Lanerc(OmoFun)的入站问答
 
 ## Introduction
 
@@ -16,18 +17,22 @@
 5. 打开OmoFun,进入到入站问答界面(直接开始答题,屏幕上显示选项)
 6. 运行main.py
 
-## Note
+## Env
 
-脚本写的不太完善,答满42道题会进入无限循环,手动停止脚本提交答案即可
+- Appium-Python-Client (python package) [reference](https://appium.io/docs/zh/latest/quickstart/test-py/)
+- appium (npm package) [reference](https://appium.io/docs/zh/latest/quickstart/install/)
+- uiautomator2 (appium driver) [reference](https://appium.io/docs/zh/latest/quickstart/uiauto2-driver/)
 
 ## Files
 
 - main.py: 主程序
 - main.sqlite: 用于存储题目和答案的sqlite数据库
+- old.sqlite: 用于存储题目和答案(旧版)的sqlite数据库
 - README.md: 说明文档
 - OmoFun.xlsx: OmoFun 题库 ,包含题目和答案,截止于2024/4/8,有一些题目还没有答案
 
-
 ## Screenshots
+
 ![开发者选项设置](/img/Screenshot_2024-04-09-08-59-09-932_com.android.se.jpg)
 ![OmoFun版本号](/img/Screenshot_2024-04-09-08-10-15-726_com.banshenghu.jpg)
+![Lanerc](/img/Screenshot_2025-04-26-18-40-44-490_com.miui.secur.jpg)
